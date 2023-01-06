@@ -4,11 +4,11 @@ function CustomerService() {
 
     const data = header.map(element => {
         return (
-            <div>
-                <div>
+            <div className="d-flex mx-5 my-4">
+                <div className="m-1">
                     {element.paragraph}
                 </div>
-                <div>
+                <div className="m-1">
                     {element.number}
                 </div>
             </div>
