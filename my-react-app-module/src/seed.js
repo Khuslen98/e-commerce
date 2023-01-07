@@ -1,9 +1,6 @@
 
-
-  
   const seed = [
       {
-        id: 1,
         title: 'Yellow Pail',
         description: 'On-demand sand castle construction expertise.',
         url: '#',
@@ -44,7 +41,4 @@
       },
      ];
      
-     
-     
-  
   export default seed

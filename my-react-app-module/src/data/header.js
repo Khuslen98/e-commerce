@@ -1,4 +1,3 @@
-import {Truck, GeoAltFill} from "react-bootstrap-icons"
 
 const header = [
     {
