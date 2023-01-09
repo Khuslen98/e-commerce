@@ -14,8 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header d-flex">
         <div className="Customer-service">
-            <CustomerService/>
-            <p><Truck/></p>
+          <CustomerService />
         </div>
       </header>
       <div>
@@ -29,11 +28,7 @@ function App() {
             <h4 className='fundReturn'>30 days return</h4>
           </div>
         </nav>
-        <div>
-          <AliceCarousel>
-            <CarouselData0 />
-          </AliceCarousel>
-        </div>
+            <CarouselData0 /> 
       </div>
     </div>
   );

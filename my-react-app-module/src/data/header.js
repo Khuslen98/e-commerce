@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 7bd493afec204bccb917b3d983927502ddddefd2
 const header = [
     {
         paragraph: "Need help?",
