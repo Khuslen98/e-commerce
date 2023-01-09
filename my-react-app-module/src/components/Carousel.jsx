@@ -5,19 +5,24 @@ const CarouselData0 = () => {
     const result = CarouselData.map(data => {
 
         return (
-            <div className="sliderimg">
-                <h2 className="CarouselDataH2">{data.name}</h2>
-                <button className="CarouselDataBTN1">{data.button}</button>
-                <button className="CarouselDataBTN2">{data.button2}</button>
-                <img className="CarouselDataIMG" src={data.image} alt="" />
-                <p className="CarouselDataPARA">{data.para}</p>
+            <div className="sliderimg d-flex justify-content-between carouselMain m-5">
+                <div className="carouselSection1">
+                    <h2 className="CarouselDataH2">{data.name}</h2>
+                    <button className="CarouselDataBTN1 btn2 ">{data.button}</button>
+                    <button className="CarouselDataBTN2 btn2 ">{data.button2}</button>
+                </div>
+                <div></div>
+                <div className="carouselSection2">
+                    <img className="CarouselDataIMG" src={data.image} alt="" />
+                    {/* <p className="CarouselDataPARA">{data.para}</p> */}
+                </div>
             </div>
         )
     })
     console.log(result)
     return (
         <div>
-            <AliceCarousel>
+            <AliceCarousel autoPlay autoPlayInterval={3000}>
                 {result}
             </AliceCarousel>
         </div>

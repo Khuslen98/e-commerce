@@ -25,3 +25,42 @@
 .CarouselDataH2 {
   color: #1B5A7D;
 }
+.carouselMain {
+  width: 1440px;
+  padding-left: 174px;
+  padding-right: 174px;
+  height: 393px;
+}
+.carouselSection1 {
+  padding: 67px 0 117px 0;
+}
+.CarouselDataH2 {
+  font-weight: bolder;
+  font-size: 43px;
+}
+.btn2 {
+  padding: 18.5px 35px 18.5px 35px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 37px;
+}
+.CarouselDataBTN1 {
+  background-color: #EDA415;
+  color: white ;
+}
+/* .carouselSection2 {
+  position: relative;
+} */
+.CarouselDataIMG {
+  text-align: center;
+  width: 331px;
+  height: 356px;
+  
+}
+/* .CarouselDataPARA {
+  position: absolute;
+  margin-bottom: 50px;
+  border: #EDA415 solid 20px;
+  background-color: #EDA415;
+  border-radius: 50%;
+} */
