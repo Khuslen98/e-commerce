@@ -38,6 +38,7 @@
         submitterAvatarUrl: 'avatars/molly.png',
         productImageUrl: 'products/image-yellow.png',
         number:'43',
+        number2:'43',
       },
      ];
      
