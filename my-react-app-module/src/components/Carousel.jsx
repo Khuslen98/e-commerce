@@ -11,7 +11,7 @@ const CarouselData0 = () => {
                     <button className="CarouselDataBTN1 btn2 ">{data.button}</button>
                     <button className="CarouselDataBTN2 btn2 ">{data.button2}</button>
                 </div>
-                <div></div>
+                {/* <div></div> */}
                 <div className="carouselSection2">
                     <img className="CarouselDataIMG" src={data.image} alt="" />
                     {/* <p className="CarouselDataPARA">{data.para}</p> */}
@@ -22,7 +22,7 @@ const CarouselData0 = () => {
     console.log(result)
     return (
         <div>
-            <AliceCarousel autoPlay autoPlayInterval={3000}>
+            <AliceCarousel infinite="false" autoPlay autoPlayInterval={3000}>
                 {result}
             </AliceCarousel>
         </div>
